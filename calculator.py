@@ -21,12 +21,18 @@ while True:
             print("Cannot divide by zero")
         else:
             print(num1 / num2)
+     
+    elif lif operation == "%":
+         print(num1%num2)
+         
+    elif operation == "//":
+         print(num1//num2)
 
     else:
         print("Invalid operator")
 
-    choice = input("Do you want to continue? yes/no: ")
+    choice = input("Do you want to continue? (yes/no): ")
 
-    if choice == "no":
+    if choice.lower() == "no":
         print("Calculator closed")
         break
