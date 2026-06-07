@@ -22,7 +22,7 @@ while True:
         else:
             print(num1 / num2)
      
-    elif lif operation == "%":
+    elif operation == "%":
          print(num1%num2)
          
     elif operation == "//":
