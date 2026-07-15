@@ -10,5 +10,3 @@ def count_vowels(word):
     return count
 result = count_vowels(input("please enter your name:"))
 print(result)
-
-
