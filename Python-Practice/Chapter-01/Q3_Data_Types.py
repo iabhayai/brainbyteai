@@ -3,7 +3,7 @@
 x = 5
 y = 5.0
 z = "5"
-w = 5j
+w = 5i
 
 print(type(x))
 print(type(y))
